@@ -1,0 +1,10 @@
+students=('anshika','gungun',['utkarsh'],['luv'],'kashish','nandini','puja',['neeraj'],['ashu'])
+boys=0
+girls=0
+for elements in students:
+    if isinstance(elements,list):
+        boys+=1
+    else:
+        girls+=1
+print("boys=",boys)
+print("girls=",girls)
